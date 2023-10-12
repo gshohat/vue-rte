@@ -4,6 +4,7 @@
 
 **Lightweight** [Vue](https://vuejs.org/) component to be full-featured textarea replacement   **< 10k** 😎 <br>
 
+![rte](https://github.com/gshohat/vue-rte/assets/91323932/96e1917c-cd4f-4fb1-8492-19eea44f566b)
 
 ## Usage
 
