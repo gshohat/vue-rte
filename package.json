@@ -1,0 +1,42 @@
+{
+  "name": "vue-rte",
+  "version": "1.0.0",
+  "author": "Gilad Shohat",
+  "description": "Vue Rich Text Editor",
+  "homepage": "https://github.com/gshohat/vue-rte#readme",
+  "license": "MIT",
+  "main": "./dist/rte.umd.js",
+  "module": "./dist/rte.es.js",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/rte.es.js",
+      "require": "./dist/rte.umd.js"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "path": "^0.12.7",
+    "vite": "^4.4.6"
+  },
+  "keywords": [
+    "vue",
+    "component",
+    "contenteditable",
+    "wysiwyg",
+    "richtext"
+  ]
+}
+
+
